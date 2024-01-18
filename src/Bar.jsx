@@ -17,7 +17,7 @@ const Bar = () => {
     return (
         <div className={styles.top_bar}>
             <img 
-{/*             src="images/logo.svg"  */}
+            src="images/logo.svg" 
             alt="Codebuddyhub logo"
             />
             <button className={styles.menu_btn} onClick={(e) => {handleClick(e)}}>
